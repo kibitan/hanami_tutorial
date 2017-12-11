@@ -12,7 +12,8 @@ gem 'hanami-mailer',      require: false, git: 'https://github.com/hanami/mailer
 gem 'hanami-cli',         require: false, git: 'https://github.com/hanami/cli.git',         branch: 'develop'
 gem 'hanami-assets',      require: false, git: 'https://github.com/hanami/assets.git',      branch: 'develop'
 gem 'hanami-model',       require: false, git: 'https://github.com/hanami/model.git',       branch: 'develop'
-gem 'hanami',                             git: 'https://github.com/hanami/hanami.git',      branch: 'develop'
+# gem 'hanami',                             git: 'https://github.com/hanami/hanami.git',      branch: 'develop'
+gem 'hanami',                             path: '../hanami'
 
 gem 'sqlite3'
 

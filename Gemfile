@@ -15,7 +15,7 @@ gem 'hanami-model',       require: false, git: 'https://github.com/hanami/model.
 # gem 'hanami',                             git: 'https://github.com/hanami/hanami.git',      branch: 'develop'
 gem 'hanami',                             path: '../hanami'
 
-gem 'sqlite3'
+gem 'pg'
 
 group :development do
   # Code reloading

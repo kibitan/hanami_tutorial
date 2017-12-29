@@ -28,7 +28,7 @@ group :test, :development do
 end
 
 group :test do
-  gem 'rspec'
+  gem 'minitest'
   gem 'capybara'
 end
 
